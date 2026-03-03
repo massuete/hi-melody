@@ -26,21 +26,49 @@ opcoes.addEventListener('click', (e) => {
 
 /*Slider de Imagens*/
 
-let count = 1;
-document.getElementById("radio1").checked = true;
+let radio1 = document.getElementById("radio1");
 
-setInterval(function(){
-  proximaImagem();
-}, 4000)
+if(radio1){
 
-function proximaImagem(){
-  count++;
-  if(count>3){
-    count = 1;
-  }
+    let count = 1;
+    radio1.checked = true;
 
-  document.getElementById("radio"+count).checked = true;
+    setInterval(function(){
+        proximaImagem();
+    },4000);
+
+    function proximaImagem(){
+        count++;
+
+        if(count > 3){
+            count = 1;
+        }
+
+        document.getElementById("radio"+count).checked = true;
+    }
 
 }
 
-/*Formulário*/
+/*Menu Upper*/
+
+let ultimoScroll = 0;
+const header = document.querySelector("header");
+const menu = document.querySelector("#menu");
+
+window.addEventListener("scroll", () => {
+
+  let scrollAtual = window.scrollY;
+
+  if(menu.classList.contains("aberto")){
+    return;
+  }
+
+  if(scrollAtual > ultimoScroll){
+    header.classList.add("esconder");
+  }else{
+    header.classList.remove("esconder");
+  }
+
+  ultimoScroll = scrollAtual
+
+});
