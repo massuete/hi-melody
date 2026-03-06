@@ -300,6 +300,26 @@ section#back_yellow p{
     line-height: 30px;
 }
 
+#link_index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 40px auto;
+
+    width: 200px;
+    height: 50px;
+    background-color: #2a5549;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.274);
+}
+
+#link_index a{
+    font-family: "sub";
+
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+
 section#back_yellow img{
     width: 100%;
     height: auto;
