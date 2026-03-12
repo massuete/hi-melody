@@ -61,6 +61,7 @@
 
 
      section#back_yellow, section#back_blue{
+        flex-flow: row-reverse nowrap;
         height: 500px;
     }
 
