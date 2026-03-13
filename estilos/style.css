@@ -631,12 +631,6 @@ div.menu_itens article img{
 
 /*CONTATO*/
 /*Título*/
-
-
-body.contato{
-    background-color: #F4E6C3;
-}
-
 .contato_titulo{
     font-family: "footer";
     display: flex;

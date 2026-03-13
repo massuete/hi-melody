@@ -6,6 +6,7 @@
     <title>Menu</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
      <header>
@@ -40,186 +41,176 @@
             <a href="#"><span>Baixar PDF</span></a>
         </section>
 
-        <div class="menu_itens">
-            <section id="ancoras">
-                <a href="#drinks">
-                    <p>Drinks</p>
-                </a>
-                <a href="#petiscos">
-                    <p>Petiscos</p>
-                </a>
-                <a href="#pratos">
-                    <p>Pratos</p>
-                </a>
-                <a href="#sobremesas">
-                    <p>Sobremesas</p>
-                </a>
-            </section>
-
-            <section id="drinks">
-
-                <div id="center_title">
-                    <h2>Drinks</h2>
-                </div>
-
-                <article>
-                    <img src="imagens/melody_mojito.jpg" alt="Melody Mojito">
-                    <div id="info">
-                        <h3>Melody Mojito</h3>
-                        <p>Rum, hortelã fresca, limão, açúcar demerara e toque tropical.</p>
+        <div class="mid_section">
+            <div class="menu_itens">
+                <section id="ancoras">
+                    <a href="#drinks">
+                        <p>Drinks</p>
+                    </a>
+                    <a href="#petiscos">
+                        <p>Petiscos</p>
+                    </a>
+                    <a href="#pratos">
+                        <p>Pratos</p>
+                    </a>
+                    <a href="#sobremesas">
+                        <p>Sobremesas</p>
+                    </a>
+                </section>
+                <section id="drinks">
+                    <div id="center_title">
+                        <h2>Drinks</h2>
                     </div>
-                </article>
-                <article>
-                    <img src="imagens/sunset_spritz.jpg" alt="Sunset Spritz">
-                    <div id="info">
-                        <h3>Sunset Spritz</h3>
-                        <p>Espumante, laranja, maracujá e água com gás.</p>
+                    <article>
+                        <img src="imagens/melody_mojito.jpg" alt="Melody Mojito">
+                        <div id="info">
+                            <h3>Melody Mojito</h3>
+                            <p>Rum, hortelã fresca, limão, açúcar demerara e toque tropical.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/sunset_spritz.jpg" alt="Sunset Spritz">
+                        <div id="info">
+                            <h3>Sunset Spritz</h3>
+                            <p>Espumante, laranja, maracujá e água com gás.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/blue_ocean_gin.jpg" alt="Blue Ocean Gin">
+                        <div id="info">
+                            <h3>Blue Ocean Gin</h3>
+                            <p>Gin, tônica, limão siciliano e notas florais.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/pineapple_beat.jpg" alt="Pinapple Beat">
+                        <div id="info">
+                            <h3>Pinapple Beat</h3>
+                            <p>Vodka, abacaxi, coco e leve toque de baunilha.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/coconut_margarita.jpg" alt="Coconut Margarita">
+                        <div id="info">
+                            <h3>Coconut Margarita</h3>
+                            <p>Tequila, coco, limão e sal cítrico.</p>
+                        </div>
+                    </article>
+                </section>
+                <section id="petiscos">
+                    <div id="center_title">
+                        <h2>Petiscos</h2>
                     </div>
-                </article>
-                <article>
-                    <img src="imagens/blue_ocean_gin.jpg" alt="Blue Ocean Gin">
-                    <div id="info">
-                        <h3>Blue Ocean Gin</h3>
-                        <p>Gin, tônica, limão siciliano e notas florais.</p>
+                    <article>
+                        <img src="imagens/camarao_tropical.jpg" alt="Camarão Tropical">
+                        <div id="info">
+                            <h3>Camarão Tropical</h3>
+                            <p>Camarões empanados com molho agridoce da casa.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/pastel_peixe.jpg" alt="Pastel de Peixe">
+                        <div id="info">
+                            <h3>Pastel de Peixe</h3>
+                            <p>Recheio de peixe temperado com ervas e limão.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/bolinho_de _banana.jpg" alt="Bolinho de Banana-da-Terra">
+                        <div id="info">
+                            <h3>Bolinho de Banana-da-Terra</h3>
+                            <p>Crocante por fora, macio por dentro</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/calamari.jpg" alt="Calamari Hi Melody">
+                        <div id="info">
+                            <h3>Calamari Hi Melody</h3>
+                            <p>Lula empanada com molho cítrico.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/batata_rustica.jpg" alt="Batata Rústica">
+                        <div id="info">
+                            <h3>Batata Rústica</h3>
+                            <p>Batatas com ervas, alho e páprica defumada.</p>
+                        </div>
+                    </article>
+                </section>
+                <section id="pratos">
+                    <div id="center_title">
+                        <h2>Pratos</h2>
                     </div>
-                </article>
-                <article>
-                    <img src="imagens/pineapple_beat.jpg" alt="Pinapple Beat">
-                    <div id="info">
-                        <h3>Pinapple Beat</h3>
-                        <p>Vodka, abacaxi, coco e leve toque de baunilha.</p>
+                    <article>
+                        <img src="imagens/peixe_do_dia.jpg" alt="Peixe do Dia grelhado">
+                        <div id="info">
+                            <h3>Peixe do Dia Grelhado</h3>
+                            <p>Acompanhado de arroz de coco e legumes.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/risoto.jpg" alt="Risoto de Camarão">
+                        <div id="info">
+                            <h3>Risoto de Camarão</h3>
+                            <p>Camarões salteados com arroz cremoso e limão.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/bowl_tropical.jpg" alt="Bowl Tropical">
+                        <div id="info">
+                            <h3>Bowl Tropical</h3>
+                            <p>Quinoa, legumes frecos, manga e proteína à escolha.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/moqueca.jpg" alt="Moqueca Hi Melody">
+                        <div id="info">
+                            <h3>Moqueca Hi Melody</h3>
+                            <p>Peixe, leite de coco, dendê e pimentões.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/frango_caribe.jpg" alt="Frango Caribe">
+                        <div id="info">
+                            <h3>Frango Caribe</h3>
+                            <p>Frango grelhado com molho de abacaxia e gengibre.</p>
+                        </div>
+                    </article>
+                </section>
+                <section id="sobremesas">
+                    <div id="center_title">
+                        <h2>Sobremesas</h2>
                     </div>
-                </article>
-                <article>
-                    <img src="imagens/coconut_margarita.jpg" alt="Coconut Margarita">
-                    <div id="info">
-                        <h3>Coconut Margarita</h3>
-                        <p>Tequila, coco, limão e sal cítrico.</p>
-                    </div>
-                </article>
-            </section>
-
-            <section id="petiscos">
-
-                <div id="center_title">
-                    <h2>Petiscos</h2>
-                </div>
-
-                <article>
-                    <img src="imagens/camarao_tropical.jpg" alt="Camarão Tropical">
-                    <div id="info">
-                        <h3>Camarão Tropical</h3>
-                        <p>Camarões empanados com molho agridoce da casa.</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="imagens/pastel_peixe.jpg" alt="Pastel de Peixe">
-                    <div id="info">
-                        <h3>Pastel de Peixe</h3>
-                        <p>Recheio de peixe temperado com ervas e limão.</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="imagens/bolinho_de _banana.jpg" alt="Bolinho de Banana-da-Terra">
-                    <div id="info">
-                        <h3>Bolinho de Banana-da-Terra</h3>
-                        <p>Crocante por fora, macio por dentro</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="imagens/calamari.jpg" alt="Calamari Hi Melody">
-                    <div id="info">
-                        <h3>Calamari Hi Melody</h3>
-                        <p>Lula empanada com molho cítrico.</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="imagens/batata_rustica.jpg" alt="Batata Rústica">
-                    <div id="info">
-                        <h3>Batata Rústica</h3>
-                        <p>Batatas com ervas, alho e páprica defumada.</p>
-                    </div>
-                </article>
-            </section>
-
-            <section id="pratos">
-
-                <div id="center_title">
-                    <h2>Pratos</h2>
-                </div>
-
-                <article>
-                    <img src="imagens/peixe_do_dia.jpg" alt="Peixe do Dia grelhado">
-                    <div id="info">
-                        <h3>Peixe do Dia Grelhado</h3>
-                        <p>Acompanhado de arroz de coco e legumes.</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="imagens/risoto.jpg" alt="Risoto de Camarão">
-                    <div id="info">
-                        <h3>Risoto de Camarão</h3>
-                        <p>Camarões salteados com arroz cremoso e limão.</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="imagens/bowl_tropical.jpg" alt="Bowl Tropical">
-                    <div id="info">
-                        <h3>Bowl Tropical</h3>
-                        <p>Quinoa, legumes frecos, manga e proteína à escolha.</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="imagens/moqueca.jpg" alt="Moqueca Hi Melody">
-                    <div id="info">
-                        <h3>Moqueca Hi Melody</h3>
-                        <p>Peixe, leite de coco, dendê e pimentões.</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="imagens/frango_caribe.jpg" alt="Frango Caribe">
-                    <div id="info">
-                        <h3>Frango Caribe</h3>
-                        <p>Frango grelhado com molho de abacaxia e gengibre.</p>
-                    </div>
-                </article>
-            </section>
-
-            <section id="sobremesas">
-
-                <div id="center_title">
-                    <h2>Sobremesas</h2>
-                </div>
-
-                <article>
-                    <img src="imagens/cheesecake_maracuja.jpg" alt="Cheesecake de Maracujá">
-                    <div id="info">
-                        <h3>Cheesecake de Maracujá</h3>
-                        <p>Cremoso com calda cítrica.</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="imagens/sorvete.jpg" alt="Sorvete Artesanal Tropical">
-                    <div id="info">
-                        <h3>Sorvete Artesenal Tropical</h3>
-                        <p>Sabores de manga, coco e frutas vermelhas</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="imagens/brownie_coco.jpg" alt="Brownie com Coco">
-                    <div id="info">
-                        <h3>Brownie com Coco</h3>
-                        <p>Servido quente com sorvete</p>
-                    </div>
-                </article>
-                <article>
-                    <img src="imagens/pudim_coco.jpg" alt="Pudim de Coco">
-                    <div id="info">
-                        <h3>Pudim de Coco</h3>
-                        <p>Receita clássica com toque tropical</p>
-                    </div>
-                </article>
-            </section>
+                    <article>
+                        <img src="imagens/cheesecake_maracuja.jpg" alt="Cheesecake de Maracujá">
+                        <div id="info">
+                            <h3>Cheesecake de Maracujá</h3>
+                            <p>Cremoso com calda cítrica.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/sorvete.jpg" alt="Sorvete Artesanal Tropical">
+                        <div id="info">
+                            <h3>Sorvete Artesenal Tropical</h3>
+                            <p>Sabores de manga, coco e frutas vermelhas</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/brownie_coco.jpg" alt="Brownie com Coco">
+                        <div id="info">
+                            <h3>Brownie com Coco</h3>
+                            <p>Servido quente com sorvete</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="imagens/pudim_coco.jpg" alt="Pudim de Coco">
+                        <div id="info">
+                            <h3>Pudim de Coco</h3>
+                            <p>Receita clássica com toque tropical</p>
+                        </div>
+                    </article>
+                </section>
+        </div>
         </div>
     </main>
 

@@ -48,6 +48,8 @@
 /*Telas Maiores*/
 
 @media (min-width: 1200px) {
+    /*INDEX*/
+
     .slide{
         height: 900px;
     }
@@ -68,5 +70,55 @@
     #background_images img{
         max-height: 900px;
         object-fit: cover;
+    }
+
+    #burguer{
+        display: none;
+    }
+
+    #menu{
+        display: flex;
+        width: 420px;
+        height: 35px;
+        transform: translateY(0);
+        position: static;
+        background-color: #1c435a;
+        box-shadow: -5px 5px 1px #F76C5E;
+        margin: 20px;
+    }
+
+    #menu ul{
+        font-family: "sub";
+        font-size: 9.5px;
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #menu hr{
+        display: none;
+    }
+
+    #fechar-menu{
+        display: none;
+    }
+
+    /*CONTATO*/
+    body{
+        background-color: #f0e5cb;
+        background-image: none;
+    }
+    main{
+        background-color: #f0e5cb;
+        background-image: none;
+    }
+
+    .mid_section{
+        background-color: #f0e5cb;
+        background-image: none;
+        max-width: 700px;
+        margin: auto;
     }
 }   
